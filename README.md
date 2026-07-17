@@ -2,7 +2,7 @@
 
 A standalone Microsoft Intune deployment demonstrating device configuration, compliance enforcement, required app deployment, and Conditional Access tied to device trust — built in its own tenant, separate from the AD DS and hybrid identity projects.
 
-![Intune Lab Topology](intune-lab-assets/topology-diagram.svg)
+![Intune Lab Topology](Intune_Diagram.png)
 
 **Related repos:** [Active-Directory-Home-Lab](https://github.com/sibghatrehman/Active-Directory-Home-Lab) and the hybrid identity lab cover on-prem AD and Entra Connect sync in `mydomain.com`. This project is intentionally a **separate tenant** (see Troubleshooting #1 for why) — it stands alone as a device-management deep dive rather than an extension of that identity work.
 
