@@ -85,14 +85,14 @@ Occurred even with correct licensing and a working service principal. Fixed by s
 ## Screenshots
 
 1. `Devices → All devices` — Client2 listed, Managed by Intune, Compliant ![Intune Lab Topology](Entra_Devices.png) ![Intune Lab Topology](Intune_Devices.png)
-2. Devs Configuration Policy — overview + assignment to IT Department [Intune Lab Topology](Device_Restrictions.png)
-3. IT Devices Compliance — overview + assignment [Intune Lab Topology](IT_Devices_Compliance.png)
-4. Zoom app — Required assignment + install status on Client2 [Intune Lab Topology](Zoom_App.png)
-5. Conditional Access policy — conditions + assignment [Intune Lab Topology](CA.png)
-6. `dsregcmd /status` output on Client2 [Intune Lab Topology](dsregcmd_status.png)
-7. Licenses page showing the final EMS E5 trial assignment [Intune Lab Topology](Active_Licenses.png)
-8. MDM URL Error. [Intune Lab Topology](Intune_Error.png)
-9. Update Ring.  [Intune Lab Topology](Update_Ring.png)
+2. Devs Configuration Policy — overview + assignment to IT Department ![Intune Lab Topology](Device_Restrictions.png)
+3. IT Devices Compliance — overview + assignment ![Intune Lab Topology](IT_Devices_Compliance.png)
+4. Zoom app — Required assignment + install status on Client2 ![Intune Lab Topology](Zoom_App.png)
+5. Conditional Access policy — conditions + assignment ![Intune Lab Topology](CA.png)
+6. `dsregcmd /status` output on Client2 ![Intune Lab Topology](dsregcmd_status.png)
+7. Licenses page showing the final EMS E5 trial assignment ![Intune Lab Topology](Active_Licenses.png)
+8. MDM URL Error. ![Intune Lab Topology](Intune_Error.png)
+9. Update Ring.  ![Intune Lab Topology](Update_Ring.png)
 ## Skills Demonstrated
 
 `Microsoft Intune` · `Conditional Access` · `Device Compliance Policies` · `Device Configuration Profiles` · `App Deployment` · `Microsoft Graph / PowerShell` · `Entra ID Licensing` · `MDM Enrollment Troubleshooting`
