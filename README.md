@@ -91,7 +91,8 @@ Occurred even with correct licensing and a working service principal. Fixed by s
 5. Conditional Access policy — conditions + assignment ![Intune Lab Topology](CA.png)
 6. `dsregcmd /status` output on Client2 ![Intune Lab Topology](dsregcmd_status.png)
 7. Licenses page showing the final EMS E5 trial assignment ![Intune Lab Topology](Active_Licenses.png)
-8. MDM URL Error. ![Intune Lab Topology](Intune_Error.png)
+8. MDM URL Error.
+![Intune Lab Topology](Intune_Error.png)
 9. Update Ring.  ![Intune Lab Topology](Update_Ring.png)
 ## Skills Demonstrated
 
