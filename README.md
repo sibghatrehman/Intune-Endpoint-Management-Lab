@@ -84,20 +84,15 @@ Occurred even with correct licensing and a working service principal. Fixed by s
 
 ## Screenshots
 
-1. `Devices → All devices` — Client2 listed, Managed by Intune, Compliant
-2. Devs Configuration Policy — overview + assignment to IT Department
-3. IT Devices Compliance — overview + assignment
-4. Zoom app — Required assignment + install status on Client2
-5. Conditional Access policy — conditions + assignment
-6. `dsregcmd /status` output on Client2
-7. Empty Mobility (MDM and MAM) blade — before the service principal fix
-8. `Invoke-MgGraphRequest` PowerShell output creating the service principal
-9. Mobility blade after — "Microsoft Intune" now listed
-10. The `CAA50024` Terms of Use error screen
-11. Licenses page showing the final EMS E5 trial assignment
-12. The `0x80192ee7` error, and WIP user scope set to None
-13. Access-denied screen from the unmanaged-device test (proves the CA policy works end-to-end)
-
+1. `Devices → All devices` — Client2 listed, Managed by Intune, Compliant ![Intune Lab Topology](Entra_Devices.png) ![Intune Lab Topology](Intune_Devices.png)
+2. Devs Configuration Policy — overview + assignment to IT Department [Intune Lab Topology](Device_Restrictions.png)
+3. IT Devices Compliance — overview + assignment [Intune Lab Topology](IT_Devices_Compliance.png)
+4. Zoom app — Required assignment + install status on Client2 [Intune Lab Topology](Zoom_App.png)
+5. Conditional Access policy — conditions + assignment [Intune Lab Topology](CA.png)
+6. `dsregcmd /status` output on Client2 [Intune Lab Topology](dsregcmd_status.png)
+7. Licenses page showing the final EMS E5 trial assignment [Intune Lab Topology](Active_Licenses.png)
+8. MDM URL Error. [Intune Lab Topology](Intune_Error.png)
+9. Update Ring.  [Intune Lab Topology](Update_Ring.png)
 ## Skills Demonstrated
 
 `Microsoft Intune` · `Conditional Access` · `Device Compliance Policies` · `Device Configuration Profiles` · `App Deployment` · `Microsoft Graph / PowerShell` · `Entra ID Licensing` · `MDM Enrollment Troubleshooting`
@@ -108,8 +103,4 @@ Occurred even with correct licensing and a working service principal. Fixed by s
 - Microsoft Learn — Intune quickstart: enroll a Windows device — official enrollment reference
 - Microsoft Q&A community threads — used to diagnose the service principal, `CAA50024`, and `0x80192ee7` errors
 
-## Notes / Next Steps
 
-- Add a **Windows Update ring** policy — the fourth core Intune workload type, not yet configured
-- Capture the unmanaged-device access-denied screenshot (#13 above) to close out the verification section
-- Optional: device naming template and an enrollment restriction (e.g., one device per user, block personally-owned) — small additions that show awareness of standard tenant hygiene even in a single-device lab
